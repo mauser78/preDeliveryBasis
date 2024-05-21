@@ -1,0 +1,168 @@
+/* Font --/-- Tipo de letra */
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  /* font-weight: 900; */
+  font-style: italic;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  /* font-weight: 700; */
+  font-style: italic;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  /* font-weight: 500; */
+  font-style: italic;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  /* font-weight: 500; */
+  font-style: normal;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* section type --/-- tipo de sección */
+.clear-section {
+  color: black;
+  background-color: white;
+}
+
+/* section navbar --/-- sección de navegación */
+.navbar {
+  background-color: rgb(255, 255, 26);
+}
+
+.navbar-brand {
+  font-style: italic;
+}
+
+
+/* Section presentation --/-- Sección de presentacion */
+.presentation {
+  background-color: rgb(255, 255, 26);
+  min-height: 100px;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.title-presentation h3 {
+  color: black;
+}
+
+.presentation .text-section {
+  font-size: 1.2rem;
+}
+
+/* exhibition section --/-- sección de exhibición */
+.exhibition {
+  padding: 40px 40px 60px 40px;
+
+}
+
+.exhibition .column {
+  padding: 20px;
+  /* border: 2px solid #8080804d; */
+  border: 2px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.exhibition .column:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+/* .exhibition .row div {
+    height: 250px;
+    background-color: gray;
+    border: 3px solid orange;
+} */
+
+.exhibition .spare-parts {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.exhibition i {
+  font-size: 2rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 12px;
+  border-radius: 50%;
+}
+
+.badges-container {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
+/* cards section --/-- sección de tarjetas */
+
+.cards-products {
+  background-color: blue;
+}
+
+.cards-wrapper {
+  display: flex;
+}
+
+.card {
+  margin: 0 .5em;
+}
+
+
+/* social networks section --/-- sección redes sociales */
+
+footer {
+  background-color: #1b1b32;
+  min-height: 100px;
+}
+
+.footer-logo {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  justify-self: center;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.iconos-redes-sociales {
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Waterfall images --/-- Imagenes en cascada */
+
