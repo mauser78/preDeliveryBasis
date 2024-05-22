@@ -75,55 +75,66 @@
       </div>
     </nav>
   </header>
+  
+  <!-- navigation main --/-- navegación principal -->
   <main>
-    <!-- carousel section --/-- sección carrusel -->
-    <section>
-      <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <section class="carousel">
+      <!-- carousel section --/-- sección carrusel -->
+      <div id="carouselAdvertisement" class="carousel slide" data-bs-ride="carousel">
+        <!--                 <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselAdvertisement" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselAdvertisement" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselAdvertisement" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div> -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./image/excibicion1.png" width="" class="d-block w-100" alt="cascocVenta">
+            <img src="./assets/image/excibicion1.png" class="d-block w-100" alt="cascosVenta">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>Repuestos para tu motor.</h5>
+              <p>Refuerza el poder de tu viaje con repuestos que impulsan tu motor hacia un alto
+                rendimiento.
+              </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./image/excibicion2.png" class="d-block w-100" alt="neumaticos">
+            <img src="./assets/image/excibicion2.png" class="d-block w-100" alt="neumaticos">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>Diversas marcas de llantas</h5>
+              <p>Encuentra el agarre perfecto para tu camino con nuestra selección de llantas de las
+                mejores
+                marcas.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./image/excibicion3.png" class="d-block w-100" alt="repuestoVentaFoto">
+            <img src="./assets/image/excibicion3.png" class="d-block w-100" alt="repuestoVentaFoto">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>Variedad en marcas de cascos</h5>
+              <p>Nuestra selección de cascos está diseñada para ofrecerte confort y protección en cada
+                viaje.
+              </p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAdvertisement" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselAdvertisement" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </section>
-
+  
     <!-- Section presentation --/-- Sección de presentacion -->
     <section class="presentation">
-      <div class="one-presentation">
+      <div class="container one-presentation">
         <h3 class="title-presentation">Explora nuestra amplia gama de productos.</h3>
-        <p class="text-section">"Contamos con una extensa variedad de productos disponibles, que abarcan desde repuestos
-          hasta accesorios y servicios, diseñados para cubrir todas sus necesidades."</p>
+        <p class="text-section">"Contamos con una extensa variedad de productos disponibles, que abarcan desde
+          repuestos hasta accesorios y servicios, diseñados para cubrir todas sus necesidades."</p>
       </div>
     </section>
-
+  
     <!-- exhibition section --/-- sección de exhibición -->
     <section class="exhibition clear-section">
       <div class="container text-center">
@@ -132,7 +143,8 @@
           <div class="column col-12 col-md-4">
             <i class="bi bi-gear-wide-connected"></i>
             <h5 class="spare-parts">Repuestos</h5>
-            <p>"Gracias a nuestra amplia gama de repuestos, podemos proporcionarte una variedad extensa de marcas
+            <p>"Gracias a nuestra amplia gama de repuestos, podemos proporcionarte una variedad extensa de
+              marcas
               que se adaptan a una amplia gama de vehículos."</p>
             <div class="badges-container">
               <a href="http://127.0.0.1:5500/pages/productos.html"><button type="button"
@@ -143,8 +155,8 @@
           <div class="column col-12 col-md-4">
             <i class="bi bi-ui-radios-grid"></i>
             <h5 class="spare-parts">Accesorios</h5>
-            <p>"Nuestro extenso catálogo de accesorios te ofrece la posibilidad de personalizar tu moto para mejorar
-              tanto
+            <p>"Nuestro extenso catálogo de accesorios te ofrece la posibilidad de personalizar tu moto para
+              mejorar tanto
               su
               desempeño como su apariencia y rendimiento."</p>
             <div class="badges-container">
@@ -156,7 +168,8 @@
           <div class="column col-12 col-md-4">
             <i class="bi bi-person-bounding-box"></i>
             <h5 class="spare-parts">Asesoría</h5>
-            <p>"Nuestro personal está disponible para brindarte asesoramiento en el área que más te interese dentro de
+            <p>"Nuestro personal está disponible para brindarte asesoramiento en el área que más te interese
+              dentro de
               nuestro
               catálogo de productos."</p>
             <div class="badges-container">
@@ -164,65 +177,144 @@
                   class="btn btn-warning">Personal</button></a>
             </div>
           </div>
-
+  
         </div>
-
+  
       </div>
     </section>
-
-    <!-- Section presentation --/-- Sección de presentacion -->
+  
+    <!-- Personnel section --/-- Sección de personal -->
     <section class="presentation">
-      <div class="one-presentation">
-        <h3 class="title-presentation">"Estamos disponibles para ti a través de nuestros diversos canales de
-          comunicación. "</h3>
-        <p class="text-section">No dudes en ponerte en contacto con nosotros utilizando cualquiera de estos medios.</p>
-        <div class="iconos-redes-sociales">
-          <a href="https://www.facebook.com/profile.php?id=61556539700887" target="_blank" rel="noopener noreferrer"><i
-              class="bi bi-facebook"></i></a>
-          <a href="https://www.instagram.com/mmsrepuestos/" target="_blank" rel="noopener noreferrer"><i
-              class="bi bi-instagram"></i></a>
-          <a href="mailto:info@mmsrepuestos.com" target="_blank" rel="noopener noreferrer"><i
-              class="bi bi-envelope-fill"></i></a>
-        </div>
+      <div class="container one-presentation">
+        <h3 class="title-presentation">Nos esforzamos constantemente por elevar la calidad de nuestro servicio y
+          atención al cliente.</h3>
+        <p class="text-section">"Para garantizar una atención más efectiva y satisfactoria, ponemos a tu
+          disposición
+          diversos canales de comunicación. Estamos comprometidos a responder a tus necesidades y a mejorar la
+          transparencia y el conocimiento sobre nuestra empresa."</p>
       </div>
     </section>
-
-    <section>
-      <div class="card" style="width: 18rem;">
-        <img src="./image/mms-100-llantaDunlop.png" class="card-img-top" alt="mms-100-llantaDunlop">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+  
+    <!-- work equipment section --/-- sección de equipo de trabajo -->
+    <section class="work-team">
+      <div id="care-staff" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="care-image rounded-circle" src="./assets/image/atencionCl.png" alt="atención cliente">
+              <p class="care-text">"Nuestro equipo está altamente capacitado para atender cualquier
+                solicitud
+                o
+                pregunta que puedas tener sobre nuestra amplia gama de productos, nuestra ubicación y la
+                disponibilidad de los mismos."</p>
+              <div class="care-info">
+                <p class="charge">Atención al cliente</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="care-image rounded-circle" src="./assets/image/despacho.png" alt="bodega y despacho">
+              <p class="care-text">"Nuestro equipo se esfuerza continuamente para garantizar el envío
+                rápido
+                de
+                tus paquetes a cualquier lugar de entrega en los diversos puntos del país." </p>
+              <div class="care-info">
+                <p class="charge">Area de despacho</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="care-image rounded-circle" src="./assets/image/asesoria.png" alt="asesoria">
+              <p class="care-text">"Nuestros asesores realizan visitas a tu local comercial para
+                proporcionarte
+                muestras de nuestros productos, permitiéndote así verificar su calidad antes de tomar
+                una
+                decisión."</p>
+              <div class="care-info">
+                <p class="charge">Asesoría comercial</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="care-image rounded-circle" src="./assets/image/cartera.png" alt="medios de pago">
+              <p class="care-text">"Ofrecemos una variedad de opciones de pago para simplificar tu
+                experiencia
+                de
+                compra."</p>
+              <div class="care-info">
+                <p class="charge">Medios de pago.</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#care-staff" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#care-staff" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
-
-    <section>
-      <h1>Hola Mundo...</h1>
-      <h2>Hola Mundo...</h2>
-      <h3>Hola Mundo...</h3>
-      <h4>Hola Mundo...</h4>
-      <h5>Hola Mundo...</h5>
-      <h6>Hola Mundo...</h6>
-      <p>Queremos que sepas que nuestro dedicado equipo está aquí para ti en todo momento, listo para brindarte
-        asesoramiento personalizado sobre nuestros productos y servicios. No dudes en contactarnos para cualquier
-        consulta o necesidad que tengas; estamos comprometidos a ayudarte en cada paso del camino."</p>
-    </section>
-
   </main>
-
+  
   <!-- place footer here --/-- Colocar pie de página aquí -->
-  <footer class="section-footer">
-    <img class="footer-logo" src="./image/LogoMs2.png" width="40" alt="logoMs2">
-    <p class="footer-text">"Nos esforzamos por satisfacer todas tus necesidades a través de nuestro amplio catálogo de
-      repuestos para motos."</p>
-    <div class="iconos-redes-sociales">
-      <a href="https://www.facebook.com/profile.php?id=61556539700887" target="_blank" rel="noopener noreferrer"><i
-          class="bi bi-facebook"></i></a>
-      <a href="https://www.instagram.com/mmsrepuestos/" target="_blank" rel="noopener noreferrer"><i
-          class="bi bi-instagram"></i></a>
-      <a href="mailto:info@mmsrepuestos.com" target="_blank" rel="noopener noreferrer"><i
-          class="bi bi-envelope-fill"></i></a>
+  <footer>
+    <div class="container-fluid">
+      <div class="row p-5 text-white">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <a class="navbar-brand" href="http://127.0.0.1:5500/">
+            <img src="./assets/image/LogoMs2.png" width="40" alt="LogoMs2">
+            MMS-Repuestos
+          </a>
+          <p>Como importadores, proveemos repuestos de alta calidad para motocicletas, con el fin de optimizar
+            el
+            rendimiento de tu vehículo y cumplir con todas tus exigencias y necesidades.</p>
+          <p>Medellin - Colombia</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <h5>Links</h5>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Inicio</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Productos</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Nosotros</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Contáctanos</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <h5>Centro de ayuda</h5>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Servicio al cliente</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Contacto</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Noticias</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Promociones</a>
+          </div>
+        </div>
+        <div class="iconos-redes d-flex flex-wrap align-items-end justify-content-end">
+          <a href="mailto:info@mmsrepuestos.com" target="_blank" rel="noopener noreferrer"><i
+              class="bi bi-envelope"></i></a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i
+              class="bi bi-instagram"></i></a>
+        </div>
+        <div class="copyright">webprogrammingms 2024&#169;</div>
+      </div>
     </div>
   </footer>
 
