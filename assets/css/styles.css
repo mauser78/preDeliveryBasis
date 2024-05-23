@@ -223,3 +223,19 @@ footer {
   color: #aeaeae;
   padding: 10px;
 }
+
+/* page about us --/-- pagina sobre nosotros */
+
+.mission {
+  /* background-color: antiquewhite; */
+  padding: 50px 100px 50px 100px;
+}
+
+.vision {
+  /* background-color: antiquewhite; */
+  padding: 50px 100px 50px 100px;
+}
+
+.our {
+  padding: 50px 100px 50px 100px;
+}
