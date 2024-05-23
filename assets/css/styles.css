@@ -229,13 +229,19 @@ footer {
 .mission {
   /* background-color: antiquewhite; */
   padding: 50px 100px 50px 100px;
+  min-height: 480px;
+  text-align: center;
 }
 
 .vision {
   /* background-color: antiquewhite; */
   padding: 50px 100px 50px 100px;
+  min-height: 480px;
+  text-align: center;
 }
 
 .our {
   padding: 50px 100px 50px 100px;
+  min-height: 480px;
+  text-align: center;
 }
