@@ -256,19 +256,23 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  background-color: rgb(97, 113, 113);
+  background-color: white;
   border-radius: 15px;
-}
-
-.login h3 {
-  text-align: center;
-  padding: 10px 0 20px 0;
-  border-bottom: 2px solid silver;
 }
 
 .login form {
   padding: 0 40px;
   box-sizing: border-box;
+}
+
+.logo img {
+  padding: 2px 0 2px 5px;
+}
+
+.logo h4 {
+  text-align: center;
+  padding: 10px 0 20px 0;
+  border-bottom: 2px solid silver;
 }
 
 form .username {
