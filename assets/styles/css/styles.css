@@ -9,22 +9,27 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
+
 h1 h1, h2 h1, h3 h1, h4 h1, h5 h1, h6 h1 {
   font-size: 4rem;
   font-style: italic;
 }
+
 h1 h2, h2 h2, h3 h2, h4 h2, h5 h2, h6 h2 {
   font-size: 3rem;
   font-style: italic;
 }
+
 h1 h3, h2 h3, h3 h3, h4 h3, h5 h3, h6 h3 {
   font-size: 2rem;
   font-style: italic;
 }
+
 h1 h4, h2 h4, h3 h4, h4 h4, h5 h4, h6 h4 {
   font-size: 1.5rem;
   font-style: normal;
 }
+
 h1 h5, h1 h6, h2 h5, h2 h6, h3 h5, h3 h6, h4 h5, h4 h6, h5 h5, h5 h6, h6 h5, h6 h6 {
   font-weight: 500;
   font-style: normal;
@@ -151,7 +156,6 @@ h1 h5, h1 h6, h2 h5, h2 h6, h3 h5, h3 h6, h4 h5, h4 h6, h5 h5, h5 h6, h6 h5, h6 
     font-size: 18px;
   }
 }
-
 /* Footer --/-- Pie de pagina */
 footer {
   min-height: 250px;
@@ -294,152 +298,149 @@ footer {
 
 /* Search engine section --//-- Sección de buscadores */
 .presentation-products {
-    background-color: #cdcdcd;
-    min-height: 60px;
-    text-align: center;
-    padding: 1.5rem;
+  background-color: #cdcdcd;
+  min-height: 60px;
+  text-align: center;
+  padding: 1.5rem;
 }
+
 .search-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .search-input {
-    width: 100%;
-    max-width: 400px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
-    box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  box-sizing: border-box;
 }
 
 .search-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    background-color: rgb(255, 232, 0);
-    color: white;
-    cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: rgb(255, 232, 0);
+  color: white;
+  cursor: pointer;
 }
 
 .search-button img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 /* Cards section --//-- sección tarjetas */
 .cards-section {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .title-cards h3 {
-    /* margin-top: 3px; */
-    margin-bottom: 10px;
+  /* margin-top: 3px; */
+  margin-bottom: 10px;
 }
+
 .card-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    max-width: 1600px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1600px;
 }
 
 .card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.2s;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
 }
 
 .card:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .card img {
-    width: 80%;
-    height: auto;
+  width: 80%;
+  height: auto;
 }
 
 .card-content {
-    padding: 20px;
+  padding: 20px;
 }
 
 .card-title {
-    font-size: 18px;
-    margin: 0 0 10px;
-    color: #333;
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #333;
 }
 
 .card-description {
-    font-size: 14px;
-    margin: 0 0 20px;
-    color: #666;
+  font-size: 14px;
+  margin: 0 0 20px;
+  color: #666;
 }
 
 .card-price {
-    font-size: 20px;
-    margin: 0 0 20px;
-    color: #e67e22;
+  font-size: 20px;
+  margin: 0 0 20px;
+  color: #e67e22;
 }
 
 .card button {
-    background-color: #e67e22;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    width: 100%;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
 }
 
 .card button:hover {
-    background-color: #d35400;
+  background-color: #d35400;
 }
 
 /* Responsiveness */
 @media (min-width: 1800px) {
-    .card-container {
-        grid-template-columns: repeat(6, 1fr);
-    }
+  .card-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
-
 @media (min-width: 1200px) and (max-width: 1799px) {
-    .card-container {
-        grid-template-columns: repeat(5, 1fr);
-    }
+  .card-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
-
 @media (min-width: 1000px) and (max-width: 1199px) {
-    .card-container {
-        grid-template-columns: repeat(4, 1fr);
-    }
+  .card-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
-
 @media (min-width: 768px) and (max-width: 999px) {
-    .card-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-
 @media (min-width: 520px) and (max-width: 767px) {
-    .card-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
 @media (max-width: 519px) {
-    .card-container {
-        grid-template-columns: 1fr;
-    }
+  .card-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
