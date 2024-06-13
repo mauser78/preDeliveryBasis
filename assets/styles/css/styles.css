@@ -443,4 +443,11 @@ footer {
   }
 }
 
+/* Our company --//-- Nuestra empresa */
+.staff {
+  padding: 50px 100px 50px 100px;
+  min-height: 480px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
