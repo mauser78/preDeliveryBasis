@@ -343,7 +343,6 @@ footer {
 }
 
 .title-cards h3 {
-  /* margin-top: 3px; */
   margin-bottom: 10px;
 }
 
@@ -448,6 +447,10 @@ footer {
   padding: 50px 100px 50px 100px;
   min-height: 480px;
   text-align: center;
+}
+
+.image-circle {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */
