@@ -453,4 +453,47 @@ footer {
   border-radius: 50%;
 }
 
+.iconos-contac a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-contac i {
+  color: blue;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-contac a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-contac a:hover i {
+  color: black;
+}
+
+/* Shopping cart --/-- Carrito de compras */
+.shopping-cart {
+  height: 100vh;
+}
+
+.table {
+  margin-top: 50px;
+}
+
+.Payments {
+  text-align: center;
+}
+
+
+
 /*# sourceMappingURL=styles.css.map */
