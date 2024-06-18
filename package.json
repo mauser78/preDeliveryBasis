@@ -1,14 +1,17 @@
 {
   "name": "preentregaonewilderserna",
   "version": "1.0.0",
-  "description": "Configuración de estilo SASS.",
+  "description": "Proyecto pagina web en Frontend",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sass",
+    "index",
     "css",
+    "scss",
+    "html",
+    "sass",
     "frontend"
   ],
   "author": "Wilder Serna",
